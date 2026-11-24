@@ -1,8 +1,8 @@
-# 🌌 Minimalist Zed-Inspired VS Code Setup
+# 🌌 Clean Zed-Inspired VS Code Setup
 
 My personal **Visual Studio Code** configuration crafted for a clean, flat, and distraction-free coding experience inspired by **Zed Editor**, styled with the **Catppuccin Frappé** palette and **Blue** accents.
 
-> `@}->--  C'est la vie ᓚᘏᗢ`
+> `@}->-- C'est la vie ᓚᘏᗢ`
 
 ---
 
