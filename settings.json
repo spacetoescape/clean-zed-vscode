@@ -1,0 +1,157 @@
+{
+  // ==========================================
+  // THEME & WORKBENCH UI
+  // ==========================================
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.iconTheme": "catppuccin-frappe",
+  "catppuccin-icons.monochrome": true,
+  "catppuccin.workbenchMode": "minimal",
+  "catppuccin.accentColor": "blue",
+  "catppuccin.extraBordersEnabled": false,
+
+  "workbench.experimental.modernUI": false,
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.browser.showInTitleBar": false,
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderLocation}${separator}${profileName}${separator}${appName}",
+  "window.title": "@}->--  C'est la vie ᓚᘏᗢ",
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "breadcrumbs.enabled": false,
+
+  // ==========================================
+  // EDITOR & TYPOGRAPHY
+  // ==========================================
+  "editor.fontFamily": "'FiraCode NF', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 29,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": false,
+  "editor.matchBrackets": "never",
+  "editor.occurrencesHighlight": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.selectionHighlight": true,
+
+  // ==========================================
+  // FILES, EXPLORER & SECURITY
+  // ==========================================
+  "files.autoSave": "afterDelay",
+  "files.autoSaveWhenNoErrors": true,
+  "files.trimTrailingWhitespace": true,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "prompt",
+  "remote.autoForwardPortsSource": "hybrid",
+
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://spec.openapis.org/": true,
+    "https://www.schemastore.org/": true
+  },
+
+  // ==========================================
+  // TERMINAL
+  // ==========================================
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.pasteWarning": "never",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    }
+  },
+
+  // ==========================================
+  // LANGUAGE & FORMATTING OVERRIDES
+  // ==========================================
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingPairs": [{ "open": "<", "close": ">" }]
+  },
+  "[typescriptreact]": {
+    "editor.autoClosingTags": true,
+    "editor.autoClosingPairs": [{ "open": "<", "close": ">", "notIn": ["string"] }]
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "js/ts.suggest.autoImports": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "php.suggest.basic": false,
+
+  // ==========================================
+  // EXTENSIONS
+  // ==========================================
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+
+  "jest.runMode": "on-demand",
+  "code-runner.runInTerminal": true,
+
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "sqltools.results.location": "current",
+  "sqltools.results.reuseTabs": "connection",
+
+  "vscode-pets.theme": "forest"
+}
